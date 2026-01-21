@@ -1,0 +1,359 @@
+{
+  "timestamp": "2025-01-21",
+  "corpus_analysis": {
+    "document_statistics": {
+      "total_documents": 156,
+      "documents_with_reviews": 132,
+      "percentage_with_reviews": 84.61538461538461
+    },
+    "token_statistics": {
+      "unique_title_tokens": 62,
+      "unique_description_tokens": 299,
+      "total_unique_tokens": 332
+    },
+    "review_statistics": {
+      "average_reviews_per_doc": 4.019230769230769,
+      "max_reviews": 5,
+      "min_reviews": 0,
+      "average_rating": 4.470833333333333,
+      "max_rating": 4.75,
+      "min_rating": 4.2
+    }
+  },
+  "document_quality_analysis": {
+    "review_impact": {
+      "documents_without_reviews": 24,
+      "documents_with_reviews": 132,
+      "highly_rated_documents": 70,
+      "review_coverage_percentage": 84.61538461538461,
+      "analysis": {
+        "note": "Products with reviews have an advantage in ranking due to review signals",
+        "recommendation": "Consider boosting new products without reviews to ensure visibility"
+      }
+    },
+    "field_coverage": {
+      "total_documents": 156,
+      "documents_with_title": 156,
+      "documents_with_description": 132,
+      "documents_with_brand": 132,
+      "documents_with_origin": 156,
+      "fully_populated": 132,
+      "coverage_percentage": {
+        "title": 100.0,
+        "description": 84.61538461538461,
+        "brand": 84.61538461538461,
+        "origin": 100.0
+      }
+    }
+  },
+  "signal_analysis": [
+    {
+      "query": "laptop computer",
+      "filtered_count": 0,
+      "returned_count": 0,
+      "signal_analysis": {},
+      "top_signal": null,
+      "recommendations": [
+        "No results found for this query - cannot analyze signals"
+      ]
+    },
+    {
+      "query": "blue shirt",
+      "filtered_count": 25,
+      "returned_count": 20,
+      "signal_analysis": {
+        "title_presence": {
+          "count_non_zero": 12,
+          "min": 1,
+          "max": 1,
+          "mean": 1,
+          "total_contribution": 12
+        },
+        "title_position": {
+          "count_non_zero": 12,
+          "min": 0.7836004323417088,
+          "max": 1.0693147180559945,
+          "mean": 0.94477259351387,
+          "total_contribution": 11.33727112216644
+        },
+        "title_bm25": {
+          "count_non_zero": 12,
+          "min": 0.5592514932873623,
+          "max": 0.9566143964125934,
+          "mean": 0.7061153997742502,
+          "total_contribution": 8.473384797291002
+        },
+        "frequency": {
+          "count_non_zero": 20,
+          "min": 0.2,
+          "max": 0.6000000000000001,
+          "mean": 0.37000000000000005,
+          "total_contribution": 7.4
+        },
+        "description_position": {
+          "count_non_zero": 13,
+          "min": 0.30187285759087823,
+          "max": 0.6943147180559945,
+          "mean": 0.49847811831597083,
+          "total_contribution": 6.480215538107621
+        },
+        "review_recency": {
+          "count_non_zero": 20,
+          "min": 0.3,
+          "max": 0.3,
+          "mean": 0.3,
+          "total_contribution": 6.0
+        },
+        "reviews": {
+          "count_non_zero": 20,
+          "min": 0.21000000000000002,
+          "max": 0.22999999999999998,
+          "mean": 0.216,
+          "total_contribution": 4.32
+        },
+        "description_bm25": {
+          "count_non_zero": 13,
+          "min": 0.08042333421167822,
+          "max": 0.16674929845724107,
+          "mean": 0.11044421484228718,
+          "total_contribution": 1.4357747929497333
+        }
+      },
+      "top_signal": "title_presence",
+      "recommendations": [
+        "Title presence (frequency) is significant. Consider field-specific term weighting."
+      ]
+    },
+    {
+      "query": "made in france",
+      "filtered_count": 29,
+      "returned_count": 20,
+      "signal_analysis": {
+        "description_position": {
+          "count_non_zero": 20,
+          "min": 0.38181471805599454,
+          "max": 1.0693147180559945,
+          "mean": 0.7591101417653872,
+          "total_contribution": 15.182202835307743
+        },
+        "review_recency": {
+          "count_non_zero": 20,
+          "min": 0.3,
+          "max": 0.3,
+          "mean": 0.3,
+          "total_contribution": 6.0
+        },
+        "reviews": {
+          "count_non_zero": 20,
+          "min": 0.21000000000000002,
+          "max": 0.22000000000000003,
+          "mean": 0.21600000000000003,
+          "total_contribution": 4.32
+        },
+        "frequency": {
+          "count_non_zero": 20,
+          "min": 0.2,
+          "max": 0.2,
+          "mean": 0.2,
+          "total_contribution": 4.0
+        },
+        "description_bm25": {
+          "count_non_zero": 20,
+          "min": 0.14040144270372037,
+          "max": 0.2237165845279061,
+          "mean": 0.18119991855275738,
+          "total_contribution": 3.6239983710551478
+        }
+      },
+      "top_signal": "description_position",
+      "recommendations": []
+    },
+    {
+      "query": "high quality electronics",
+      "filtered_count": 10,
+      "returned_count": 10,
+      "signal_analysis": {
+        "title_presence": {
+          "count_non_zero": 10,
+          "min": 1,
+          "max": 1,
+          "mean": 1,
+          "total_contribution": 10
+        },
+        "title_position": {
+          "count_non_zero": 10,
+          "min": 0.9784056271469036,
+          "max": 0.9784056271469036,
+          "mean": 0.9784056271469036,
+          "total_contribution": 9.784056271469035
+        },
+        "title_bm25": {
+          "count_non_zero": 10,
+          "min": 0.8322678609799479,
+          "max": 1.1510087439084384,
+          "mean": 0.896016037565646,
+          "total_contribution": 8.96016037565646
+        },
+        "frequency": {
+          "count_non_zero": 10,
+          "min": 0.4,
+          "max": 0.6000000000000001,
+          "mean": 0.52,
+          "total_contribution": 5.200000000000001
+        },
+        "description_position": {
+          "count_non_zero": 6,
+          "min": 0.3723450210862975,
+          "max": 0.8385454872867637,
+          "mean": 0.6190427677840442,
+          "total_contribution": 3.7142566067042653
+        },
+        "review_recency": {
+          "count_non_zero": 10,
+          "min": 0.3,
+          "max": 0.3,
+          "mean": 0.3,
+          "total_contribution": 3.0
+        },
+        "reviews": {
+          "count_non_zero": 10,
+          "min": 0.21000000000000002,
+          "max": 0.21000000000000002,
+          "mean": 0.21000000000000002,
+          "total_contribution": 2.1
+        },
+        "description_bm25": {
+          "count_non_zero": 6,
+          "min": 0.22922631764278223,
+          "max": 0.2832325181345372,
+          "mean": 0.24722838447336723,
+          "total_contribution": 1.4833703068402033
+        }
+      },
+      "top_signal": "title_presence",
+      "recommendations": [
+        "Title presence (frequency) is significant. Consider field-specific term weighting."
+      ]
+    }
+  ],
+  "weight_variants": [
+    {
+      "name": "baseline",
+      "weights": {
+        "title_presence": 2.0,
+        "title_bm25": 2.5,
+        "title_position": 0.3,
+        "description_bm25": 1.0,
+        "description_position": 0.2,
+        "exact_match": 1.5,
+        "frequency": 0.5,
+        "reviews": 0.8,
+        "review_recency": 0.3
+      }
+    },
+    {
+      "name": "title_focused",
+      "weights": {
+        "title_presence": 3.0,
+        "title_bm25": 3.5,
+        "title_position": 0.5,
+        "description_bm25": 0.5,
+        "description_position": 0.1,
+        "exact_match": 2.0,
+        "frequency": 0.3,
+        "reviews": 0.5,
+        "review_recency": 0.2
+      }
+    },
+    {
+      "name": "reviews_focused",
+      "weights": {
+        "title_presence": 1.0,
+        "title_bm25": 1.0,
+        "title_position": 0.2,
+        "description_bm25": 0.5,
+        "description_position": 0.1,
+        "exact_match": 1.0,
+        "frequency": 0.3,
+        "reviews": 2.5,
+        "review_recency": 1.0
+      }
+    },
+    {
+      "name": "balanced",
+      "weights": {
+        "title_presence": 1.5,
+        "title_bm25": 1.5,
+        "title_position": 0.3,
+        "description_bm25": 1.5,
+        "description_position": 0.3,
+        "exact_match": 1.0,
+        "frequency": 0.5,
+        "reviews": 1.0,
+        "review_recency": 0.3
+      }
+    },
+    {
+      "name": "bm25_emphasis",
+      "weights": {
+        "title_presence": 1.0,
+        "title_bm25": 3.5,
+        "title_position": 0.2,
+        "description_bm25": 2.0,
+        "description_position": 0.2,
+        "exact_match": 1.0,
+        "frequency": 0.3,
+        "reviews": 0.5,
+        "review_recency": 0.2
+      }
+    }
+  ],
+  "performance_benchmark": {
+    "total_queries": 4,
+    "individual_benchmarks": [
+      {
+        "query": "laptop computer",
+        "iterations": 3,
+        "min_time_ms": 0.0026226043701171875,
+        "max_time_ms": 0.009775161743164062,
+        "mean_time_ms": 0.0057220458984375,
+        "std_dev_ms": 0.0036704073711253766
+      },
+      {
+        "query": "blue shirt",
+        "iterations": 3,
+        "min_time_ms": 0.8237361907958984,
+        "max_time_ms": 1.2006759643554688,
+        "mean_time_ms": 0.9669462839762369,
+        "std_dev_ms": 0.2041231122944645
+      },
+      {
+        "query": "made in france",
+        "iterations": 3,
+        "min_time_ms": 0.7491111755371094,
+        "max_time_ms": 0.9582042694091797,
+        "mean_time_ms": 0.8295377095540365,
+        "std_dev_ms": 0.11258465946079164
+      },
+      {
+        "query": "high quality electronics",
+        "iterations": 3,
+        "min_time_ms": 0.29087066650390625,
+        "max_time_ms": 0.3490447998046875,
+        "mean_time_ms": 0.3140767415364583,
+        "std_dev_ms": 0.030819079050995797
+      }
+    ],
+    "overall_stats": {
+      "min_time_ms": 0.0057220458984375,
+      "max_time_ms": 0.9669462839762369,
+      "mean_time_ms": 0.5290706952412924,
+      "total_time_ms": 2.1162827809651694
+    }
+  },
+  "optimization_notes": {
+    "title_vs_description": "Title signals are stronger than description signals. Consider increasing title field importance for better relevance.",
+    "review_signal_impact": "Review signals add valuable diversity to ranking. Highly-rated products are promoted naturally.",
+    "field_coverage_recommendation": "Field coverage is 100.0% for titles. Ensure all documents have proper metadata."
+  }
+}

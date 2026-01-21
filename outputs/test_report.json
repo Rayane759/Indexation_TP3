@@ -1,0 +1,741 @@
+{
+  "total_tests": 13,
+  "tests": [
+    {
+      "query": "laptop",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "laptop"
+      ],
+      "total_documents": 156,
+      "filtered_count": 0,
+      "returned_count": 0,
+      "results_with_scores": [],
+      "analysis": {
+        "score_stats": {},
+        "top_result_quality": "No results"
+      }
+    },
+    {
+      "query": "wireless headphones",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "wireless",
+        "headphones"
+      ],
+      "total_documents": 156,
+      "filtered_count": 0,
+      "returned_count": 0,
+      "results_with_scores": [],
+      "analysis": {
+        "score_stats": {},
+        "top_result_quality": "No results"
+      }
+    },
+    {
+      "query": "apple",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "apple"
+      ],
+      "total_documents": 156,
+      "filtered_count": 0,
+      "returned_count": 0,
+      "results_with_scores": [],
+      "analysis": {
+        "score_stats": {},
+        "top_result_quality": "No results"
+      }
+    },
+    {
+      "query": "made in france",
+      "filter_mode": "all",
+      "expand_synonyms": true,
+      "tokens": [
+        "france",
+        "fr",
+        "made"
+      ],
+      "total_documents": 156,
+      "filtered_count": 0,
+      "returned_count": 0,
+      "results_with_scores": [],
+      "analysis": {
+        "score_stats": {},
+        "top_result_quality": "No results"
+      }
+    },
+    {
+      "query": "usa made",
+      "filter_mode": "any",
+      "expand_synonyms": true,
+      "tokens": [
+        "united",
+        "usa",
+        "made",
+        "america",
+        "states"
+      ],
+      "total_documents": 156,
+      "filtered_count": 50,
+      "returned_count": 10,
+      "results_with_scores": [
+        {
+          "rank": 1,
+          "title": "classic leather sneakers white42",
+          "score": 0.8036,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.4,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "classic leather sneakers black40",
+          "score": 0.7747,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.4,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "classic leather sneakers black41",
+          "score": 0.7524,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.4,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "classic leather sneakers black42",
+          "score": 0.7524,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.4,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "kids lightup sneakers red 6",
+          "score": 0.7381,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 6,
+          "title": "kids lightup sneakers red 5",
+          "score": 0.7381,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 7,
+          "title": "kids lightup sneakers",
+          "score": 0.7381,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 8,
+          "title": "classic leather sneakers white41",
+          "score": 0.7212,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.4,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "kids lightup sneakers blue 6",
+          "score": 0.7168,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 10,
+          "title": "kids lightup sneakers blue 5",
+          "score": 0.7123,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        }
+      ],
+      "analysis": {
+        "score_stats": {
+          "min": 0.7123,
+          "max": 0.8036,
+          "mean": 0.7447699999999999,
+          "stdev": 0.027886358672297107
+        },
+        "top_result_score": 0.8036,
+        "score_spread": 0.09129999999999994
+      }
+    },
+    {
+      "query": "waterproof",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "waterproof"
+      ],
+      "total_documents": 156,
+      "filtered_count": 7,
+      "returned_count": 7,
+      "results_with_scores": [
+        {
+          "rank": 1,
+          "title": "hiking boots outdoor adventures 8",
+          "score": 2.2794,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "hiking boots outdoor adventures",
+          "score": 2.2672,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "hiking boots outdoor adventures 8",
+          "score": 2.2087,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "hiking boots outdoor adventures 6",
+          "score": 2.1854,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "hiking boots outdoor adventures",
+          "score": 2.146,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "hiking boots outdoor adventures 7",
+          "score": 2.146,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "hiking boots outdoor adventures 9",
+          "score": 2.1386,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        }
+      ],
+      "analysis": {
+        "score_stats": {
+          "min": 2.1386,
+          "max": 2.2794,
+          "mean": 2.1959,
+          "stdev": 0.05858518015107005
+        },
+        "top_result_score": 2.2794,
+        "score_spread": 0.14080000000000004
+      }
+    },
+    {
+      "query": "durable high quality",
+      "filter_mode": "all",
+      "expand_synonyms": false,
+      "tokens": [
+        "durable",
+        "high",
+        "quality"
+      ],
+      "total_documents": 156,
+      "filtered_count": 0,
+      "returned_count": 0,
+      "results_with_scores": [],
+      "analysis": {
+        "score_stats": {},
+        "top_result_quality": "No results"
+      }
+    },
+    {
+      "query": "blue",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "blue"
+      ],
+      "total_documents": 156,
+      "filtered_count": 25,
+      "returned_count": 10,
+      "results_with_scores": [
+        {
+          "rank": 1,
+          "title": "blue energy potion",
+          "score": 8.5919,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "blue energy potion",
+          "score": 8.5232,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "blue energy potion one",
+          "score": 8.0677,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "blue energy potion one",
+          "score": 8.0095,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "blue energy potion six pack",
+          "score": 7.8232,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "blue energy potion six pack",
+          "score": 7.4176,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "kids lightup sneakers blue 6",
+          "score": 7.3324,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 8,
+          "title": "kids lightup sneakers blue 5",
+          "score": 7.3324,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 9,
+          "title": "kids lightup sneakers blue 6",
+          "score": 7.3324,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 10,
+          "title": "kids lightup sneakers blue 5",
+          "score": 7.3324,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        }
+      ],
+      "analysis": {
+        "score_stats": {
+          "min": 7.3324,
+          "max": 8.5919,
+          "mean": 7.77627,
+          "stdev": 0.5034782684265309
+        },
+        "top_result_score": 8.5919,
+        "score_spread": 1.259500000000001
+      }
+    },
+    {
+      "query": "black white",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "black",
+        "white"
+      ],
+      "total_documents": 156,
+      "filtered_count": 23,
+      "returned_count": 10,
+      "results_with_scores": [
+        {
+          "rank": 1,
+          "title": "catear beanie pink small",
+          "score": 0.9882,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 2,
+          "title": "catear beanie grey medium",
+          "score": 0.9584,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 3,
+          "title": "catear beanie sand medium",
+          "score": 0.9501,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 4,
+          "title": "catear beanie pink small",
+          "score": 0.9462,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 5,
+          "title": "catear beanie sand small",
+          "score": 0.8324,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 6,
+          "title": "catear beanie",
+          "score": 0.8197,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 7,
+          "title": "catear beanie",
+          "score": 0.8,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 8,
+          "title": "catear beanie grey small",
+          "score": 0.7906,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 9,
+          "title": "catear beanie darkgrey small",
+          "score": 0.7906,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        },
+        {
+          "rank": 10,
+          "title": "catear beanie sand small",
+          "score": 0.7859,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.2,
+            "last_rating": 4
+          }
+        }
+      ],
+      "analysis": {
+        "score_stats": {
+          "min": 0.7859,
+          "max": 0.9882,
+          "mean": 0.86621,
+          "stdev": 0.08325996036511187
+        },
+        "top_result_score": 0.9882,
+        "score_spread": 0.20229999999999992
+      }
+    },
+    {
+      "query": "affordable reliable electronic gadget",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "affordable",
+        "reliable",
+        "electronic",
+        "gadget"
+      ],
+      "total_documents": 156,
+      "filtered_count": 0,
+      "returned_count": 0,
+      "results_with_scores": [],
+      "analysis": {
+        "score_stats": {},
+        "top_result_quality": "No results"
+      }
+    },
+    {
+      "query": "ergonomic",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "ergonomic"
+      ],
+      "total_documents": 156,
+      "filtered_count": 0,
+      "returned_count": 0,
+      "results_with_scores": [],
+      "analysis": {
+        "score_stats": {},
+        "top_result_quality": "No results"
+      }
+    },
+    {
+      "query": "stylish modern design",
+      "filter_mode": "all",
+      "expand_synonyms": false,
+      "tokens": [
+        "stylish",
+        "modern",
+        "design"
+      ],
+      "total_documents": 156,
+      "filtered_count": 0,
+      "returned_count": 0,
+      "results_with_scores": [],
+      "analysis": {
+        "score_stats": {},
+        "top_result_quality": "No results"
+      }
+    },
+    {
+      "query": "stylish modern design",
+      "filter_mode": "any",
+      "expand_synonyms": false,
+      "tokens": [
+        "stylish",
+        "modern",
+        "design"
+      ],
+      "total_documents": 156,
+      "filtered_count": 34,
+      "returned_count": 10,
+      "results_with_scores": [
+        {
+          "rank": 1,
+          "title": "hiking boots outdoor adventures 9",
+          "score": 1.1583,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "hiking boots outdoor adventures 6",
+          "score": 1.1583,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "hiking boots outdoor adventures 8",
+          "score": 1.1284,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "hiking boots outdoor adventures 7",
+          "score": 0.9767,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "hiking boots outdoor adventures",
+          "score": 0.9763,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "hiking boots outdoor adventures 8",
+          "score": 0.967,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "hiking boots outdoor adventures 7",
+          "score": 0.9667,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "hiking boots outdoor adventures 9",
+          "score": 0.9061,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "hiking boots outdoor adventures 6",
+          "score": 0.9009,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "hiking boots outdoor adventures",
+          "score": 0.8784,
+          "reviews": {
+            "total_reviews": 5,
+            "mean_mark": 4.6,
+            "last_rating": 5
+          }
+        }
+      ],
+      "analysis": {
+        "score_stats": {
+          "min": 0.8784,
+          "max": 1.1583,
+          "mean": 1.00171,
+          "stdev": 0.10713550557847555
+        },
+        "top_result_score": 1.1583,
+        "score_spread": 0.27990000000000015
+      }
+    }
+  ],
+  "summary": {
+    "average_filtered_count": 10.692307692307692,
+    "average_returned_count": 3.6153846153846154,
+    "queries_with_results": 5,
+    "total_queries": 13
+  }
+}
