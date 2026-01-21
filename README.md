@@ -4,8 +4,6 @@
 
 A search engine for product data combining BM25 ranking with 9 signals (token frequency, position, reviews). Implements dual-mode filtering, synonym expansion, and configurable weight optimization.
 
-**Status**: Production-ready | **Code**: 838 lines | **Language**: Python 3.8+
-
 ---
 
 ## Quick Start
@@ -102,7 +100,6 @@ position_score = 1/(1 + position*0.1) + log(occurrences+1)*0.1
 ### Synonym Expansion
 
 - Loaded from `origin_synonyms.json`
-- Example: "france" expands to ["france", "fr"]
 - Improves recall for location-based searches
 - Optional per-query
 
@@ -160,8 +157,6 @@ Custom weights can be easily modified by changing `RankingWeights.DEFAULT` in `c
 
 ## Usage Guide
 
-### Basic Search
-
 ```python
 from search_engine import SearchEngine
 
@@ -172,57 +167,6 @@ results = engine.search("blue", filter_mode='any', top_k=10)
 for result in results['results']:
     print(f"{result['score']:.4f}: {result['title']}")
 ```
-
-### Advanced Options
-
-```python
-# All tokens must match (strict)
-results = engine.search("blue shirt", filter_mode='all', top_k=5)
-
-# With synonym expansion
-results = engine.search("made in france", expand_synonyms=True, top_k=10)
-
-# Batch search
-queries = ["blue", "waterproof", "usa made"]
-all_results = engine.batch_search(queries, top_k=5)
-```
-
-### Custom Weights
-
-```python
-from config import RankingWeights
-
-# Modify default weights
-RankingWeights.DEFAULT['title_bm25'] = 3.0  # Increase title importance
-RankingWeights.DEFAULT['reviews'] = 1.5     # Increase review importance
-
-engine = SearchEngine('inputs')
-engine.linear_ranker.weights = RankingWeights.DEFAULT
-```
-
----
-
-## Code Quality & Architecture
-
-### Design Principles
-
-- **Separation of Concerns**: Each class handles one responsibility
-- **Composability**: Classes combine to form complete pipeline
-- **Configurability**: Weights adjustable, multiple filter modes
-- **Extensibility**: Easy to add new signals or modify existing ones
-- **Testability**: Test suite with 13 diverse queries
-
-### Type Safety
-
-- Full type hints throughout
-- Comprehensive docstrings
-- Clear function signatures
-
-### Error Handling
-
-- Graceful handling of missing files
-- Robust tokenization (handles special characters)
-- Safe JSON loading with defaults
 
 ---
 
